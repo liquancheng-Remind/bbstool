@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<project name="create exe" default="main" basedir=".">
+	<!--
+		<target name="createJar" >
+			<jar destfile="fat_jar/CrawlerServices.jar"
+				basedir="${basedir}\services_bin"
+				excludes=".svn/"
+				>
+			</jar>
+			<jar destfile="${basedir}/fat_jar/overseas_infomation_crawler_github.jar"
+							excludes=".svn/"	>
+				<manifest>
+           <attribute name="Main-class" value="${mainclass}"/>  
+        </manifest>
+				<fileset dir="${basedir}\bin" excludes=".svn/"></fileset>
+				<fileset dir="${basedir}\services_bin" excludes=".svn/"></fileset>
+			</jar>
+    </target>
+    -->
+	<target name="holle">
+		<echo>holle</echo>
+	</target>
+	<target name="main" depends="holle" ></target>
+</project>
